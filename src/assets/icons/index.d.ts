@@ -1,0 +1,22 @@
+import type { SVGProps } from 'react';
+type IconProps = SVGProps<SVGSVGElement>;
+export declare function IconSun(props: IconProps): import("react/jsx-runtime").JSX.Element;
+export declare function IconMoon(props: IconProps): import("react/jsx-runtime").JSX.Element;
+export declare function IconMonitor(props: IconProps): import("react/jsx-runtime").JSX.Element;
+export declare function IconGlobe(props: IconProps): import("react/jsx-runtime").JSX.Element;
+export declare function IconArrowDown(props: IconProps): import("react/jsx-runtime").JSX.Element;
+export declare function IconExternalLink(props: IconProps): import("react/jsx-runtime").JSX.Element;
+export declare function IconPlay(props: IconProps): import("react/jsx-runtime").JSX.Element;
+export declare function PhotoPlaceholder(props: IconProps): import("react/jsx-runtime").JSX.Element;
+export declare function AlbumPlaceholder(props: IconProps): import("react/jsx-runtime").JSX.Element;
+export declare function Soundcloud(props?: IconProps): import("react/jsx-runtime").JSX.Element;
+export declare function Reverbnation(props: IconProps): import("react/jsx-runtime").JSX.Element;
+export declare function Spotify(props: IconProps): import("react/jsx-runtime").JSX.Element;
+export declare function Instagram(props: IconProps): import("react/jsx-runtime").JSX.Element;
+export declare function Facebook(props: IconProps): import("react/jsx-runtime").JSX.Element;
+export declare function Bandcamp(props: IconProps): import("react/jsx-runtime").JSX.Element;
+export declare function Youtube(props: IconProps): import("react/jsx-runtime").JSX.Element;
+export declare function AppleMusic(props: IconProps): import("react/jsx-runtime").JSX.Element;
+export declare function MotorMusic(props: IconProps): import("react/jsx-runtime").JSX.Element;
+export {};
+//# sourceMappingURL=index.d.ts.map
