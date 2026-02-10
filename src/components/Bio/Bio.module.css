@@ -15,8 +15,3 @@
   line-height: var(--leading-relaxed);
   color: var(--color-text-secondary);
 }
-
-.content p:first-child {
-  font-size: var(--text-lg);
-  color: var(--color-text-primary);
-}
