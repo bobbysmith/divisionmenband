@@ -3,11 +3,13 @@ import { useState } from 'react';
 import { IconArrowDown, MotorMusic } from '../../assets/icons';
 import { heroImage } from '../../assets/images';
 import logo from '../../assets/images/logo/logo.png';
+import { useI18n } from '../../i18n/useI18n';
 import { useT } from '../../i18n/useT';
 import { generatePressKit } from '../../utils/pressKit';
 import styles from './Hero.module.css';
 
 export default function Hero() {
+  const { locale } = useI18n();
   const t = useT();
   const [generating, setGenerating] = useState(false);
 
@@ -15,7 +17,7 @@ export default function Hero() {
     if (generating) return;
     setGenerating(true);
     try {
-      const blob = await generatePressKit();
+      const blob = await generatePressKit(locale);
       const url = URL.createObjectURL(blob);
       const a = document.createElement('a');
       a.href = url;

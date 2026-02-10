@@ -2,7 +2,8 @@ import { albumCovers, heroImage, pressPhotos } from '../assets/images';
 import { albums } from '../data/albums';
 import { albumLinks, socialLinks } from '../data/links';
 import { musicians } from '../data/musicians';
-import en from '../i18n/translations/en';
+import { translations } from '../i18n/translations';
+import type { Locale, TranslationStrings } from '../i18n/types';
 import { createZip } from './zip';
 
 async function fetchAsBytes(url: string): Promise<Uint8Array> {
@@ -15,7 +16,12 @@ function extensionFrom(url: string): string {
   return match ? match[0] : '.jpg';
 }
 
-function buildInfoText(): string {
+function getTranslation(locale: Locale): TranslationStrings {
+  return translations[locale] ?? translations.en;
+}
+
+function buildInfoText(locale: Locale): string {
+  const t = getTranslation(locale);
   const lines: string[] = [];
   const hr = '='.repeat(80);
 
@@ -26,19 +32,19 @@ function buildInfoText(): string {
   lines.push('ABOUT');
   lines.push(hr);
   lines.push('');
-  lines.push(en['about.text']);
+  lines.push(t['about.text']);
   lines.push('');
   lines.push(hr);
   lines.push('BIOGRAPHY');
   lines.push(hr);
   lines.push('');
-  lines.push(en['bio.p1']);
+  lines.push(t['bio.p1']);
   lines.push('');
-  lines.push(en['bio.p2']);
+  lines.push(t['bio.p2']);
   lines.push('');
-  lines.push(en['bio.p3']);
+  lines.push(t['bio.p3']);
   lines.push('');
-  lines.push(en['bio.p4']);
+  lines.push(t['bio.p4']);
   lines.push('');
   lines.push(hr);
   lines.push('DISCOGRAPHY');
@@ -92,14 +98,14 @@ function buildInfoText(): string {
   return lines.join('\n');
 }
 
-export async function generatePressKit(): Promise<Blob> {
+export async function generatePressKit(locale: Locale = 'en'): Promise<Blob> {
   const encoder = new TextEncoder();
   const prefix = 'The Division Men Press Kit';
   const entries: { name: string; data: Uint8Array }[] = [];
 
   entries.push({
     name: `${prefix}/THE DIVISION MEN - Press Info.txt`,
-    data: encoder.encode(buildInfoText()),
+    data: encoder.encode(buildInfoText(locale)),
   });
 
   for (let i = 0; i < pressPhotos.length; i++) {
