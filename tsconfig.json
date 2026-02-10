@@ -8,6 +8,6 @@
     "strict": true,
     "jsx": "react-jsx"
   },
-  "include": ["src/**/*", "tests/**/*"],
+  "files": [],
   "references": [{ "path": "./tsconfig.app.json" }, { "path": "./tsconfig.node.json" }]
 }
