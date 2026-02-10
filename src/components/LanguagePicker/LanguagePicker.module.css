@@ -1,0 +1,66 @@
+.wrapper {
+  position: relative;
+}
+
+.trigger {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+  padding: var(--space-xs) var(--space-sm);
+  border-radius: var(--border-radius);
+  color: var(--color-text-secondary);
+  font-size: var(--text-sm);
+  transition:
+    color var(--transition-fast),
+    background-color var(--transition-fast);
+}
+
+.trigger:hover {
+  color: var(--color-accent);
+  background-color: var(--color-accent-dim);
+}
+
+.label {
+  letter-spacing: var(--tracking-wide);
+}
+
+.dropdown {
+  position: absolute;
+  top: calc(100% + var(--space-xs));
+  left: 0;
+  min-width: 180px;
+  max-height: 320px;
+  overflow-y: auto;
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius-lg);
+  box-shadow: var(--shadow-elevated);
+  padding: var(--space-xs);
+  z-index: 210;
+}
+
+.option {
+  display: block;
+  width: 100%;
+  padding: var(--space-sm) var(--space-md);
+  border-radius: var(--border-radius);
+  font-size: var(--text-sm);
+  color: var(--color-text-secondary);
+  text-align: left;
+  transition:
+    color var(--transition-fast),
+    background-color var(--transition-fast);
+}
+
+.option:hover {
+  color: var(--color-text-primary);
+  background-color: var(--color-accent-dim);
+}
+
+.optionActive {
+  color: var(--color-accent);
+}
+
+.optionActive:hover {
+  color: var(--color-accent-hover);
+}

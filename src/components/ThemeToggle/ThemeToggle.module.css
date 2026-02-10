@@ -1,0 +1,62 @@
+.wrapper {
+  position: relative;
+}
+
+.trigger {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 50%;
+  color: var(--color-text-secondary);
+  transition:
+    color var(--transition-fast),
+    background-color var(--transition-fast);
+}
+
+.trigger:hover {
+  color: var(--color-accent);
+  background-color: var(--color-accent-dim);
+}
+
+.dropdown {
+  position: absolute;
+  top: calc(100% + var(--space-xs));
+  right: 0;
+  min-width: 140px;
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius-lg);
+  box-shadow: var(--shadow-elevated);
+  padding: var(--space-xs);
+  z-index: 110;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  width: 100%;
+  padding: var(--space-sm) var(--space-md);
+  border-radius: var(--border-radius);
+  font-size: var(--text-sm);
+  color: var(--color-text-secondary);
+  text-align: left;
+  transition:
+    color var(--transition-fast),
+    background-color var(--transition-fast);
+}
+
+.option:hover {
+  color: var(--color-text-primary);
+  background-color: var(--color-accent-dim);
+}
+
+.optionActive {
+  color: var(--color-accent);
+}
+
+.optionActive:hover {
+  color: var(--color-accent-hover);
+}

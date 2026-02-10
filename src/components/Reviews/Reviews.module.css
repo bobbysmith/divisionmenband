@@ -1,0 +1,71 @@
+.section {
+  padding: var(--space-section) 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-lg);
+  max-width: var(--container-max);
+}
+
+.card {
+  position: relative;
+  padding: var(--space-lg);
+  padding-top: var(--space-xl);
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border-subtle);
+  border-radius: var(--border-radius-lg);
+  transition:
+    border-color var(--transition-fast),
+    box-shadow var(--transition-fast);
+}
+
+.card:hover {
+  border-color: var(--color-border);
+  box-shadow: var(--shadow-card);
+}
+
+.quoteGlyph {
+  position: absolute;
+  top: var(--space-sm);
+  left: var(--space-md);
+  font-family: var(--font-display), serif;
+  font-size: 3rem;
+  line-height: 1;
+  color: var(--color-accent);
+  opacity: 0.3;
+}
+
+.quote {
+  font-size: var(--text-base);
+  line-height: var(--leading-relaxed);
+  color: var(--color-text-secondary);
+  font-style: italic;
+  margin-bottom: var(--space-md);
+}
+
+.attribution {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+}
+
+.publication {
+  font-style: normal;
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--color-accent);
+  letter-spacing: var(--tracking-wide);
+}
+
+.author {
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+}
+
+@media (min-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

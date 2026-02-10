@@ -1,0 +1,94 @@
+:root,
+[data-theme='dark'] {
+  --color-bg-primary: #0a0a08;
+  --color-bg-secondary: #121210;
+  --color-bg-card: #1a1a17;
+  --color-bg-card-hover: #222220;
+  --color-text-primary: #e8e4df;
+  --color-text-secondary: #a89f94;
+  --color-text-muted: #6b6560;
+  --color-accent: #c4a265;
+  --color-accent-hover: #d4b87a;
+  --color-accent-dim: rgba(196, 162, 101, 0.15);
+  --color-border: #2a2520;
+  --color-border-subtle: #1e1c18;
+  --color-scrim: rgba(0, 0, 0, 0.85);
+  --color-hero-overlay: rgba(10, 10, 8, 0.7);
+
+  --shadow-card: 0 2px 8px rgba(0, 0, 0, 0.4);
+  --shadow-elevated: 0 8px 32px rgba(0, 0, 0, 0.6);
+  --shadow-glow: 0 0 20px rgba(196, 162, 101, 0.1);
+
+  --header-bg: rgba(10, 10, 8, 0.92);
+  --header-border: rgba(196, 162, 101, 0.12);
+}
+
+[data-theme='light'] {
+  --color-bg-primary: #f5f0eb;
+  --color-bg-secondary: #ebe5dd;
+  --color-bg-card: #ffffff;
+  --color-bg-card-hover: #f9f6f2;
+  --color-text-primary: #1a1614;
+  --color-text-secondary: #4a443e;
+  --color-text-muted: #8a847e;
+  --color-accent: #8b6914;
+  --color-accent-hover: #a57d1e;
+  --color-accent-dim: rgba(139, 105, 20, 0.1);
+  --color-border: #d4cec6;
+  --color-border-subtle: #e4ded6;
+  --color-scrim: rgba(0, 0, 0, 0.5);
+  --color-hero-overlay: rgba(245, 240, 235, 0.7);
+
+  --shadow-card: 0 2px 8px rgba(0, 0, 0, 0.08);
+  --shadow-elevated: 0 8px 32px rgba(0, 0, 0, 0.12);
+  --shadow-glow: 0 0 20px rgba(139, 105, 20, 0.06);
+
+  --header-bg: rgba(245, 240, 235, 0.92);
+  --header-border: rgba(139, 105, 20, 0.15);
+}
+
+/* Typography tokens */
+:root {
+  --font-display: 'Georgia', 'Times New Roman', 'Palatino', serif;
+  --font-body: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: clamp(1.875rem, 4vw, 2.5rem);
+  --text-4xl: clamp(2.25rem, 5vw, 3.5rem);
+  --text-hero: clamp(2.5rem, 8vw, 5.5rem);
+
+  --leading-tight: 1.15;
+  --leading-normal: 1.6;
+  --leading-relaxed: 1.8;
+
+  --tracking-tight: -0.02em;
+  --tracking-normal: 0;
+  --tracking-wide: 0.08em;
+  --tracking-wider: 0.15em;
+
+  /* Spacing */
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 2rem;
+  --space-xl: 4rem;
+  --space-2xl: 6rem;
+  --space-section: clamp(4rem, 10vw, 7rem);
+
+  /* Layout */
+  --container-max: 1200px;
+  --content-max: 720px;
+  --header-height: 3.5rem;
+  --border-radius: 4px;
+  --border-radius-lg: 8px;
+
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-normal: 250ms ease;
+  --transition-slow: 400ms ease;
+}

@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Division Men — Official Press Kit</title>
+    <meta
+      name="description"
+      content="The Division Men — Husband & wife acoustic duo. Dark Americana, desert noir. Berlin-formed, Texas-based. Motor Music."
+    />
+    <meta property="og:title" content="The Division Men — Press Kit" />
+    <meta
+      property="og:description"
+      content="Dark Americana / Desert Noir acoustic duo. Official press materials, music, videos, and reviews."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="./assets/images/hero/hero.jpg" />
+    <meta property="og:url" content="divisionmen.band" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <script>
+      (function () {
+        let t = localStorage.getItem('tdm-theme');
+        if (t === 'light' || t === 'dark') {
+          document.documentElement.dataset.theme = t;
+        } else if (window.matchMedia('(prefers-color-scheme: light)').matches) {
+          document.documentElement.dataset.theme = 'light';
+        } else {
+          document.documentElement.dataset.theme = 'dark';
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
