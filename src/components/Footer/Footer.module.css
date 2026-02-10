@@ -29,3 +29,18 @@
   color: var(--color-text-muted);
   margin-top: var(--space-sm);
 }
+
+.credit {
+  font-size: var(--text-md);
+  color: var(--color-text-muted);
+}
+
+.credit a {
+  color: var(--color-text-secondary);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+
+.credit a:hover {
+  color: var(--color-accent);
+}

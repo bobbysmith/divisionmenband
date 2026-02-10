@@ -13,6 +13,10 @@ export default function Footer() {
           {t('footer.pressKit')} &middot; {t('hero.label')}
         </p>
         <p className={styles.copyright}>&copy; {year} The Division Men</p>
+        <p className={styles.credit}>
+          Made with ❤️ &amp; 🤘 by{' '}
+          <a href='mailto:robttsmith@proton.me?subject="Hey!%20👋'>Bobby Smith</a>
+        </p>
       </div>
     </footer>
   );
