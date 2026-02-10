@@ -32,7 +32,7 @@ export default function Hero() {
       {heroImage && <img className={styles.bg} src={heroImage.src} alt={heroImage.alt} />}
       <div className={styles.overlay} aria-hidden='true' />
       <div className={styles.content}>
-        <img src={logo} alt='the division men' style={{ width: '700px', marginBottom: '1em' }} />
+        <img className={styles.logo} src={logo} alt='the division men' />
         <p className={styles.label}>{t('hero.label')}</p>
         <MotorMusic width={50} height={50} style={{ color: 'var(--color-accent)' }} />
         <button

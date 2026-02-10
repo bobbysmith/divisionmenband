@@ -14,11 +14,10 @@
   height: 100%;
   object-fit: cover;
   z-index: 0;
-  opacity: 0.5;
 }
 
-[data-theme='light'] .bg {
-  opacity: 0.7;
+[data-theme='dark'] .bg {
+  opacity: 0.6;
 }
 
 .overlay {
@@ -52,15 +51,13 @@
   padding: var(--space-lg);
 }
 
-.title {
-  font-family: var(--font-display), serif;
-  font-size: var(--text-hero);
-  font-weight: 400;
-  letter-spacing: var(--tracking-wide);
-  text-transform: uppercase;
-  color: var(--color-text-primary);
-  line-height: var(--leading-tight);
+.logo {
+  width: 700px;
   margin-bottom: var(--space-md);
+}
+
+[data-theme='dark'] .logo {
+  filter: invert(0.7);
 }
 
 .label {

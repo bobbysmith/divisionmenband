@@ -23,7 +23,7 @@ export default function Social() {
                 rel='noopener noreferrer'
                 aria-label={link.platform}
               >
-                <Icon width={24} height={24} />
+                <Icon width={32} height={32} />
                 <span className={styles.tooltip}>{link.platform}</span>
               </a>
             );
