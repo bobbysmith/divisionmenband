@@ -1,3 +1,5 @@
+import { albums as s } from './slugs';
+
 export interface Album {
   slug: string;
   title: string;
@@ -7,15 +9,15 @@ export interface Album {
 
 export const albums: Album[] = [
   {
-    slug: 'hymns-and-fiery-dances',
+    slug: s.HYMNS,
     title: 'Hymns and Fiery Dances',
     label: 'Motor Music',
     releaseDate: '2025-08-22',
   },
-  { slug: 'ninos-del-sol', title: 'Ni\u00F1os Del Sol', label: 'S/R', releaseDate: '2018-04-20' },
-  { slug: 'under-the-gun', title: 'Under The Gun', label: 'S/R', releaseDate: '2014-05-19' },
+  { slug: s.NINOS, title: 'Ni\u00F1os Del Sol', label: 'S/R', releaseDate: '2018-04-20' },
+  { slug: s.GUN, title: 'Under The Gun', label: 'S/R', releaseDate: '2014-05-19' },
   {
-    slug: 'live-at-clap-of-thunder',
+    slug: s.THUNDER,
     title: 'Live at Clap of Thunder',
     label: 'S/R',
     releaseDate: '2012-06-06',

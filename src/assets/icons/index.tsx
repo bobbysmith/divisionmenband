@@ -138,6 +138,16 @@ export function AlbumPlaceholder(props: IconProps) {
   );
 }
 
+export function PhotoPlaceholder(props: IconProps) {
+  return (
+    <svg viewBox='0 0 4 3' {...props} aria-hidden='true'>
+      <rect width='4' height='3' fill='var(--color-bg-card)' />
+      <circle cx='2' cy='1.2' r='0.3' fill='var(--color-border)' />
+      <polygon points='0.5,2.5 1.5,1.5 2.5,2.2 3,1.8 3.5,2.5' fill='var(--color-border-subtle)' />
+    </svg>
+  );
+}
+
 export function SoundCloud(props?: IconProps) {
   return (
     <svg viewBox='0 0 24 24' fill='currentColor' {...props} aria-hidden='true'>

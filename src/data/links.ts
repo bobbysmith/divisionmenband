@@ -1,5 +1,7 @@
 import type { ComponentType, SVGProps } from 'react';
 
+import { albums as a } from './slugs';
+
 import {
   AppleMusic,
   Bandcamp,
@@ -118,22 +120,22 @@ export interface AlbumLinks {
 }
 
 export const albumLinks: Record<string, AlbumLinks> = {
-  'hymns-and-fiery-dances': {
+  [a.HYMNS]: {
     bandcamp: 'https://divisionmen.bandcamp.com/album/hymns-and-fiery-dances',
     spotify: 'https://open.spotify.com/album/1TOHnz9KUfyb70bOdIhgtS?si=POfb2EdyTEKIxFCUcovhmQ',
     apple: 'https://music.apple.com/us/album/hymns-and-fiery-dances/1818870484',
   },
-  'ninos-del-sol': {
+  [a.NINOS]: {
     bandcamp: 'https://divisionmen.bandcamp.com/album/ni-os-del-sol',
     spotify: 'https://open.spotify.com/album/7dXvEZ199oaysvHvdbBUWb?si=Hi8qpPZjQ8qPO73EzhpaZQ',
     apple: 'https://music.apple.com/us/album/ni%C3%B1os-del-sol/1359859294',
   },
-  'under-the-gun': {
+  [a.GUN]: {
     bandcamp: 'https://divisionmen.bandcamp.com/album/under-the-gun',
     spotify: 'https://open.spotify.com/album/0e5qnVLCPvhn39IhYO7HyI?si=ZQ5i5BhLSuue5MT44JPRaQ',
     apple: 'https://music.apple.com/us/album/under-the-gun/941893509',
   },
-  'live-at-clap-of-thunder': {
+  [a.THUNDER]: {
     bandcamp: 'https://divisionmen.bandcamp.com/album/live-clap-of-thunder',
   },
 };
