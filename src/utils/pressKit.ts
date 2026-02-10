@@ -20,7 +20,6 @@ function buildInfoText(): string {
   const hr = '='.repeat(80);
 
   lines.push('THE DIVISION MEN');
-  lines.push('Dark Americana · Desert Noir');
   lines.push('Motor Music');
   lines.push('');
   lines.push(hr);
