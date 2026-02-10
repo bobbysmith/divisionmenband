@@ -15,7 +15,11 @@ const en: TranslationStrings = {
 
   'about.heading': 'About',
   'about.text':
-    'The Division Men are a husband and wife acoustic duo originally formed in Berlin, Germany in 2008. They are now based in El Paso, TX. The band is made up of founder J. Spencer Portillo (vocals / acoustic guitar) and Caroline Rippy Portillo (vocals / bass guitar). Their sound has been described as dark, romantic, ethereal, and haunting. The band has currently finished a new album, Hymns and Fiery Dances, set to be released on Motor Music on August 22, 2025.',
+    'The Division Men are a husband and wife acoustic duo originally formed in Berlin, Germany in 2008. They are now' +
+    ' based in El Paso, TX. The band is made up of founder J. Spencer Portillo (vocals / acoustic guitar) and' +
+    ' Caroline Rippy Portillo (vocals / bass guitar). Their sound has been described as dark, romantic, ethereal,' +
+    ' and haunting. The band has currently finished a new album, Hymns and Fiery Dances, streaming now on all' +
+    ' platforms.',
 
   'musicians.heading': 'Featured Musicians',
   'musicians.featuring': 'The new album features collaborations with:',
@@ -30,7 +34,7 @@ const en: TranslationStrings = {
   'bio.p1':
     'The Division Men have currently finished a new album that is set to come out on Motor Music in 2025. The album features Rafael Gayol (Leonard Cohen), Rick G Nelson (Afghan Whigs, Twilight Singers, Polyphonic Spree, St. Vincent), Jay Reynolds (Asleep at the Wheel), Fredo Ortiz (Beastie Boys, Los Lobos), Leah Shapiro (Black Rebel Motorcycle Club), Dana Colley (Vapors of Morphine, Morphine), Asya Sorshneva (CocoRosie, Udo J\u00FCrgens), Beto Martinez (Grupo Fantasma), Josh Marcus, Jacob Valenzuela (Calexico, Sergio Mendoza y la Orkestra), Laura Scarborough, Barb Hunter (Afghan Whigs, Pigface), Eric Gorfain (Sam Phillips, Def Leppard, Queens of the Stone Age, Dr Dre), Peter Hayes (Black Rebel Motorcycle Club), Roscoe Beck (Leonard Cohen, Robben Ford, Eric Johnson) and Alain Johannes (Eleven, Them Crooked Vultures, Queens of the Stone Age, PJ Harvey).',
   'bio.p2':
-    'The Division Men are a husband and wife acoustic duo originally formed in Berlin, Germany in 2008. The duo has a distinctive sound that has been described as dark, romantic, ethereal, and haunting. They are now based in Austin, TX. The band is made up of founder J. Spencer Portillo (vocals / acoustic guitar) and Caroline Rippy Portillo (vocals / bass guitar).',
+    'The Division Men are a husband and wife acoustic duo originally formed in Berlin, Germany in 2008. The duo has a distinctive sound that has been described as dark, romantic, ethereal, and haunting. They are now based in El Paso, TX. The band is made up of founder J. Spencer Portillo (vocals / acoustic guitar) and Caroline Rippy Portillo (vocals / bass guitar).',
   'bio.p3':
     'The Division Men\u2019s name was derived from the idea of artists collaborating from all over the world despite their location. Originally formed in Berlin in 2008, the duo wrote and recorded and eventually returned to Texas.',
   'bio.p4':

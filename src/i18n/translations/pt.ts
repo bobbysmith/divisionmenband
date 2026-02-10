@@ -15,7 +15,7 @@ const pt: TranslationStrings = {
 
   'about.heading': 'Sobre',
   'about.text':
-    'The Division Men s\u00E3o um duo ac\u00FAstico de marido e mulher formado originalmente em Berlim, Alemanha, em 2008. Atualmente residem em El Paso, Texas. A banda \u00E9 composta pelo fundador J. Spencer Portillo (voz / guitarra ac\u00FAstica) e Caroline Rippy Portillo (voz / baixo). O seu som tem sido descrito como sombrio, rom\u00E2ntico, et\u00E9reo e assombroso. A banda terminou um novo \u00E1lbum, Hymns and Fiery Dances, com lan\u00E7amento previsto para 22 de agosto de 2025 pela Motor Music.',
+    'The Division Men s\u00E3o um duo ac\u00FAstico de marido e mulher formado originalmente em Berlim, Alemanha, em 2008. Atualmente residem em El Paso, Texas. A banda \u00E9 composta pelo fundador J. Spencer Portillo (voz / guitarra ac\u00FAstica) e Caroline Rippy Portillo (voz / baixo). O seu som tem sido descrito como sombrio, rom\u00E2ntico, et\u00E9reo e assombroso. A banda terminou um novo \u00E1lbum, Hymns and Fiery Dances, já disponível em todas as plataformas de streaming.',
 
   'musicians.heading': 'M\u00FAsicos convidados',
   'musicians.featuring': 'O novo \u00E1lbum inclui colabora\u00E7\u00F5es com:',
@@ -30,7 +30,7 @@ const pt: TranslationStrings = {
   'bio.p1':
     'The Division Men terminaram um novo \u00E1lbum que ser\u00E1 lan\u00E7ado pela Motor Music em 2025. O \u00E1lbum conta com Rafael Gayol (Leonard Cohen), Rick G Nelson (Afghan Whigs, Twilight Singers, Polyphonic Spree, St. Vincent), Jay Reynolds (Asleep at the Wheel), Fredo Ortiz (Beastie Boys, Los Lobos), Leah Shapiro (Black Rebel Motorcycle Club), Dana Colley (Vapors of Morphine, Morphine), Asya Sorshneva (CocoRosie, Udo J\u00FCrgens), Beto Martinez (Grupo Fantasma), Josh Marcus, Jacob Valenzuela (Calexico, Sergio Mendoza y la Orkestra), Laura Scarborough, Barb Hunter (Afghan Whigs, Pigface), Eric Gorfain (Sam Phillips, Def Leppard, Queens of the Stone Age, Dr Dre), Peter Hayes (Black Rebel Motorcycle Club), Roscoe Beck (Leonard Cohen, Robben Ford, Eric Johnson) e Alain Johannes (Eleven, Them Crooked Vultures, Queens of the Stone Age, PJ Harvey).',
   'bio.p2':
-    'The Division Men s\u00E3o um duo ac\u00FAstico de marido e mulher formado originalmente em Berlim, Alemanha, em 2008. O duo tem um som distintivo descrito como sombrio, rom\u00E2ntico, et\u00E9reo e assombroso. Atualmente residem em Austin, Texas. A banda \u00E9 composta pelo fundador J. Spencer Portillo (voz / guitarra ac\u00FAstica) e Caroline Rippy Portillo (voz / baixo).',
+    'The Division Men s\u00E3o um duo ac\u00FAstico de marido e mulher formado originalmente em Berlim, Alemanha, em 2008. O duo tem um som distintivo descrito como sombrio, rom\u00E2ntico, et\u00E9reo e assombroso. Atualmente residem em El Paso, Texas. A banda \u00E9 composta pelo fundador J. Spencer Portillo (voz / guitarra ac\u00FAstica) e Caroline Rippy Portillo (voz / baixo).',
   'bio.p3':
     'O nome The Division Men derivou da ideia de artistas a colaborar de todo o mundo, independentemente da sua localiza\u00E7\u00E3o. Formados originalmente em Berlim em 2008, o duo escreveu e gravou antes de regressar ao Texas.',
   'bio.p4':
