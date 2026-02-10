@@ -45,8 +45,8 @@ export default function Hero() {
         >
           {generating ? '...' : t('hero.pressKit')}
         </button>
-        <a href={'#about'} className={styles.scroll} aria-label='Scroll down'>
-          <IconArrowDown width={24} height={24} />
+        <a href='#about' className={styles.scroll} aria-label='Scroll down'>
+          <IconArrowDown width={40} height={40} />
         </a>
       </div>
     </section>
