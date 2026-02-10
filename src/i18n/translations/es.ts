@@ -18,7 +18,7 @@ const es: TranslationStrings = {
     'The Division Men son un d\u00FAo ac\u00FAstico de marido y mujer formado originalmente en Berl\u00EDn, Alemania, en 2008. Ahora residen en El Paso, Texas. La banda est\u00E1 formada por el fundador J. Spencer Portillo (voz / guitarra ac\u00FAstica) y Caroline Rippy Portillo (voz / bajo). Su sonido ha sido descrito como oscuro, rom\u00E1ntico, et\u00E9reo e inquietante. La banda ha terminado un nuevo \u00E1lbum, Hymns and Fiery Dances, que ya está disponible en todas las plataformas de streaming.',
 
   'musicians.heading': 'M\u00FAsicos invitados',
-  'musicians.featuring': 'El nuevo \u00E1lbum incluye colaboraciones con:',
+  'musicians.featuring': 'El nuevo \u00E1lbum incluye colaboraciones con',
 
   'albums.heading': '\u00C1lbumes',
   'albums.released': 'Publicado',

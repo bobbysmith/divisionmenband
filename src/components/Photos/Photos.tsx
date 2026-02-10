@@ -1,4 +1,3 @@
-import { PhotoPlaceholder } from '../../assets/icons';
 import { type ImageAsset, pressPhotos } from '../../assets/images';
 import { useModal } from '../../hooks/useModal';
 import SectionHeading from '../SectionHeading/SectionHeading';
@@ -12,33 +11,26 @@ export default function Photos() {
       <div className='container'>
         <SectionHeading titleKey='photos.heading' />
         <div className={styles.grid}>
-          {pressPhotos.length
-            ? pressPhotos.map((photo, i) => (
-                <figure key={i} className={styles.figure}>
-                  <button
-                    type='button'
-                    className={styles.imageBtn}
-                    onClick={() => openPhoto(photo)}
-                    aria-label={`View ${photo.alt}`}
-                  >
-                    <img src={photo.src} alt={photo.alt} className={styles.image} loading='lazy' />
-                  </button>
-                  {(photo.description || photo.credit) && (
-                    <figcaption className={styles.caption}>
-                      {photo.description && (
-                        <span className={styles.captionDesc}>{photo.description}</span>
-                      )}
-                      {photo.credit && <span className={styles.captionCredit}>{photo.credit}</span>}
-                    </figcaption>
+          {pressPhotos.map((photo, i) => (
+            <figure key={i} className={styles.figure}>
+              <button
+                type='button'
+                className={styles.imageBtn}
+                onClick={() => openPhoto(photo)}
+                aria-label={`View ${photo.alt}`}
+              >
+                <img src={photo.src} alt={photo.alt} className={styles.image} loading='lazy' />
+              </button>
+              {(photo.description || photo.credit) && (
+                <figcaption className={styles.caption}>
+                  {photo.description && (
+                    <span className={styles.captionDesc}>{photo.description}</span>
                   )}
-                </figure>
-              ))
-            : Array.from({ length: 6 }, (_, i) => (
-                <div key={i} className={styles.placeholder}>
-                  <PhotoPlaceholder className={styles.placeholder} />
-                  <span className={styles.label}>Photo {i + 1}</span>
-                </div>
-              ))}
+                  {photo.credit && <span className={styles.captionCredit}>{photo.credit}</span>}
+                </figcaption>
+              )}
+            </figure>
+          ))}
         </div>
       </div>
 

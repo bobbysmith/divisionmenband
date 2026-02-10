@@ -22,7 +22,7 @@ const en: TranslationStrings = {
     ' platforms.',
 
   'musicians.heading': 'Featured Musicians',
-  'musicians.featuring': 'The new album features collaborations with:',
+  'musicians.featuring': 'The new album features collaborations with',
 
   'albums.heading': 'Albums',
   'albums.released': 'Released',

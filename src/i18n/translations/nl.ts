@@ -18,7 +18,7 @@ const nl: TranslationStrings = {
     'The Division Men is een akoestisch echtpaar-duo, oorspronkelijk opgericht in Berlijn, Duitsland, in 2008. Ze wonen nu in El Paso, Texas. De band bestaat uit oprichter J. Spencer Portillo (zang / akoestische gitaar) en Caroline Rippy Portillo (zang / basgitaar). Hun geluid wordt beschreven als donker, romantisch, etherisch en aangrijpend. De band heeft een nieuw album afgerond, Hymns and Fiery Dances, dat nu te beluisteren is op alle streamingplatforms.',
 
   'musicians.heading': 'Gastmuzikanten',
-  'musicians.featuring': 'Het nieuwe album bevat samenwerkingen met:',
+  'musicians.featuring': 'Het nieuwe album bevat samenwerkingen met',
 
   'albums.heading': 'Albums',
   'albums.released': 'Uitgebracht',

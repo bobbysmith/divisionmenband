@@ -68,20 +68,6 @@
   transform: translate(-50%, -50%) scale(1.1);
 }
 
-.placeholder {
-  position: absolute;
-  inset: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--color-text-muted);
-  cursor: default;
-}
-
-.placeholder svg {
-  opacity: 0.3;
-}
-
 .title {
   font-family: var(--font-display), serif;
   font-size: var(--text-base);

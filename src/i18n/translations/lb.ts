@@ -18,7 +18,7 @@ const lb: TranslationStrings = {
     "The Division Men sinn en akustesche Mann-a-Fra-Duo, urspr\u00E9nglech 2008 zu Berlin, D\u00E4itschland, gegr\u00EBnnt. Si wunnen elo an El Paso, Texas. D'Band best\u00EEt aus dem Gr\u00EBnner J. Spencer Portillo (Gesang / akustesch Gittar) an der Caroline Rippy Portillo (Gesang / Bassgittar). Hire Sound gtt als donkel, romantesch, \u00E4thereesch an haunting beschriwwen. D'Band huet en neit Album ofgeschloss, Hymns and Fiery Dances, dat elo op alle Plattforme verfügbar ass.",
 
   'musicians.heading': 'Gaascht-Museker',
-  'musicians.featuring': 'Dat neit Album enthlt Zesummenaarbechte mat:',
+  'musicians.featuring': 'Dat neit Album enthlt Zesummenaarbechte mat',
 
   'albums.heading': 'Alben',
   'albums.released': 'Erauskomm',

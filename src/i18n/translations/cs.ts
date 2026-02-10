@@ -18,7 +18,7 @@ const cs: TranslationStrings = {
     'The Division Men jsou akustick\u00E9 duo man\u017Eel\u016F, p\u016Fvodn\u011B zalo\u017Een\u00E9 v Berl\u00EDn\u011B, N\u011Bmecko, v roce 2008. Nyn\u00ED \u017Eij\u00ED v El Pasu, Texas. Kapelu tvo\u0159\u00ED zakladatel J. Spencer Portillo (zp\u011Bv / akustick\u00E1 kytara) a Caroline Rippy Portillo (zp\u011Bv / basov\u00E1 kytara). Jejich zvuk byl pops\u00E1n jako temn\u00FD, romantick\u00FD, \u00E9terick\u00FD a straideln\u00FD. Kapela dokon\u010Dila nov\u00E9 album, Hymns and Fiery Dances, kter\u00E9 vyjde 22. srpna 2025 u Motor Music.',
 
   'musicians.heading': 'Hostuj\u00EDc\u00ED hudebn\u00EDci',
-  'musicians.featuring': 'Nov\u00E9 album obsahuje spolupr\u00E1ce s:',
+  'musicians.featuring': 'Nov\u00E9 album obsahuje spolupr\u00E1ce s',
 
   'albums.heading': 'Alba',
   'albums.released': 'Vyd\u00E1no',

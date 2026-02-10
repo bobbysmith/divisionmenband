@@ -18,7 +18,7 @@ const sl: TranslationStrings = {
     'The Division Men sta akusti\u010Dni duo mo\u017Ea in \u017Eene, prvotno ustanovljen v Berlinu, Nem\u010Dija, leta 2008. Zdaj \u017Eivita v El Pasu, Teksas. Skupino tvorita ustanovitelj J. Spencer Portillo (vokal / akusti\u010Dna kitara) in Caroline Rippy Portillo (vokal / bas kitara). Njun zvok je opisan kot temen, romanti\u010Den, eteri\u010Den in stra\u0161ljiv. Skupina je dokon\u010Dala nov album, Hymns and Fiery Dances, ki je zdaj na voljo za pretakanje na vseh platformah.',
 
   'musicians.heading': 'Gostuju\u010Di glasbeniki',
-  'musicians.featuring': 'Nov album vklju\u010Duje sodelovanja z:',
+  'musicians.featuring': 'Nov album vklju\u010Duje sodelovanja z',
 
   'albums.heading': 'Albumi',
   'albums.released': 'Izdano',

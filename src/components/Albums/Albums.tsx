@@ -13,8 +13,8 @@ const PLATFORMS: {
   label: string;
   Icon: ComponentType<SVGProps<SVGSVGElement>>;
 }[] = [
-  { key: 'spotify', label: 'Spotify', Icon: Spotify },
   { key: 'bandcamp', label: 'Bandcamp', Icon: Bandcamp },
+  { key: 'spotify', label: 'Spotify', Icon: Spotify },
   { key: 'apple', label: 'Apple Music', Icon: AppleMusic },
 ];
 

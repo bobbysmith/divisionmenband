@@ -19,7 +19,7 @@ const pl: TranslationStrings = {
     ' roku. Obecnie mieszkaj\u0105 w El Paso, Teksas. Zesp\u00F3\u0142 tworz\u0105 za\u0142o\u017Cyciel J. Spencer Portillo (\u015Bpiew / gitara akustyczna) i Caroline Rippy Portillo (\u015Bpiew / gitara basowa). Ich brzmienie opisywane jest jako mroczne, romantyczne, eteryczne i nawiedzaj\u0105ce. Zesp\u00F3\u0142 uko\u0144czy\u0142 nowy album, Hymns and Fiery Dances, który jest już dostępny na wszystkich platformach streamingowych.',
 
   'musicians.heading': 'Go\u015Bcinni muzycy',
-  'musicians.featuring': 'Nowy album zawiera wsp\u00F3\u0142prace z:',
+  'musicians.featuring': 'Nowy album zawiera wsp\u00F3\u0142prace z',
 
   'albums.heading': 'Albumy',
   'albums.released': 'Wydano',

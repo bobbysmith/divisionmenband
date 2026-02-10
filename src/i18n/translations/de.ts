@@ -18,7 +18,7 @@ const de: TranslationStrings = {
     'The Division Men sind ein Ehepaar-Akustikduo, das urspr\u00FCnglich 2008 in Berlin gegr\u00FCndet wurde. Sie leben jetzt in El Paso, Texas. Die Band besteht aus Gr\u00FCnder J. Spencer Portillo (Gesang / Akustikgitarre) und Caroline Rippy Portillo (Gesang / Bassgitarre). Ihr Sound wird als dunkel, romantisch, \u00E4therisch und eindringlich beschrieben. Die Band hat vor Kurzem ein neues Album namens „Hymns and Fiery Dances“ fertiggestellt, das ab sofort auf allen Plattformen verfügbar ist.',
 
   'musicians.heading': 'Gastmusiker',
-  'musicians.featuring': 'Das neue Album enth\u00E4lt Kollaborationen mit:',
+  'musicians.featuring': 'Das neue Album enth\u00E4lt Kollaborationen mit',
 
   'albums.heading': 'Alben',
   'albums.released': 'Ver\u00F6ffentlicht',

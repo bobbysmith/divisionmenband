@@ -4,10 +4,11 @@ import {
   AppleMusic,
   Bandcamp,
   Facebook,
+  IconGlobe,
   Instagram,
   MotorMusic,
   Reverbnation,
-  Soundcloud,
+  SoundCloud,
   Spotify,
   Youtube,
 } from '../assets/icons';
@@ -26,7 +27,7 @@ export interface SocialLink {
 
 export const socialLinks: SocialLink[] = [
   { platform: 'Motor Music', url: 'https://motormusic.de/', icon: MotorMusic },
-  { platform: 'Website', url: 'https://www.divisionmen.com/' },
+  { platform: 'divisionmen.com', url: 'https://www.divisionmen.com/', icon: IconGlobe },
   { platform: 'Facebook', url: 'https://www.facebook.com/divisionmen', icon: Facebook },
   { platform: 'Instagram', url: 'https://www.instagram.com/divisionmenband/', icon: Instagram },
   {
@@ -39,7 +40,7 @@ export const socialLinks: SocialLink[] = [
     url: 'https://divisionmen.bandcamp.com/album/hymns-and-fiery-dances',
     icon: Bandcamp,
   },
-  { platform: 'SoundCloud', url: 'https://soundcloud.com/divisionmen', icon: Soundcloud },
+  { platform: 'SoundCloud', url: 'https://soundcloud.com/divisionmen', icon: SoundCloud },
   {
     platform: 'Spotify',
     url: 'https://open.spotify.com/artist/4e9RhlBFg4bhFtXZO99wrD',

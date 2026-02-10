@@ -17,14 +17,8 @@
   opacity: 0.5;
 }
 
-.bgPlaceholder {
-  position: absolute;
-  inset: 0;
-  background:
-    radial-gradient(ellipse at 30% 20%, rgba(196, 162, 101, 0.08) 0%, transparent 60%),
-    radial-gradient(ellipse at 70% 80%, rgba(139, 90, 43, 0.06) 0%, transparent 50%),
-    var(--color-bg-primary);
-  z-index: 0;
+[data-theme='light'] .bg {
+  opacity: 0.7;
 }
 
 .overlay {

@@ -18,7 +18,7 @@ const hr: TranslationStrings = {
     'The Division Men su akusti\u010Dki duo supru\u017Enika, izvorno osnovan u Berlinu, Njema\u010Dka, 2008. godine. Sada \u017Eive u El Pasu, Texas. Bend \u010Dine osniva\u010D J. Spencer Portillo (vokal / akusti\u010Dna gitara) i Caroline Rippy Portillo (vokal / bas gitara). Njihov zvuk opisan je kao mra\u010Dan, romanti\u010Dan, eterik i jeziv. Bend je zavr\u0161io novi album, Hymns and Fiery Dances, koji je sada dostupan za streaming na svim platformama.',
 
   'musicians.heading': 'Gostuju\u0107i glazbenici',
-  'musicians.featuring': 'Novi album uklju\u010Duje suradnje s:',
+  'musicians.featuring': 'Novi album uklju\u010Duje suradnje s',
 
   'albums.heading': 'Albumi',
   'albums.released': 'Objavljeno',

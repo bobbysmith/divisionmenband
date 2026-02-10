@@ -22,26 +22,20 @@ export default function Videos() {
             return (
               <div key={video.title} className={styles.card}>
                 <div className={styles.embed}>
-                  {videoId ? (
-                    <button
-                      type='button'
-                      className={styles.facade}
-                      onClick={() => openVideo(video)}
-                      aria-label={`Play ${video.title}`}
-                    >
-                      <img
-                        src={`https://img.youtube.com/vi/${videoId}/hqdefault.jpg`}
-                        alt={video.title}
-                        className={styles.thumbnail}
-                        loading='lazy'
-                      />
-                      <IconPlay className={styles.playIcon} aria-hidden='true' />
-                    </button>
-                  ) : (
-                    <div className={styles.placeholder}>
-                      <IconPlay width={48} height={48} aria-hidden='true' />
-                    </div>
-                  )}
+                  <button
+                    type='button'
+                    className={styles.facade}
+                    onClick={() => openVideo(video)}
+                    aria-label={`Play ${video.title}`}
+                  >
+                    <img
+                      src={`https://img.youtube.com/vi/${videoId}/hqdefault.jpg`}
+                      alt={video.title}
+                      className={styles.thumbnail}
+                      loading='lazy'
+                    />
+                    <IconPlay className={styles.playIcon} aria-hidden='true' />
+                  </button>
                 </div>
                 <h3 className={styles.title}>{video.title}</h3>
               </div>
