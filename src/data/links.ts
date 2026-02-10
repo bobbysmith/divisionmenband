@@ -26,7 +26,11 @@ export interface SocialLink {
 }
 
 export const socialLinks: SocialLink[] = [
-  { platform: 'Motor Music', url: 'https://motormusic.de/', icon: MotorMusic },
+  {
+    platform: 'Motor Music',
+    url: 'https://motormusic.de/artists/the-division-men/',
+    icon: MotorMusic,
+  },
   { platform: 'divisionmen.com', url: 'https://www.divisionmen.com/', icon: IconGlobe },
   { platform: 'Facebook', url: 'https://www.facebook.com/divisionmen', icon: Facebook },
   { platform: 'Instagram', url: 'https://www.instagram.com/divisionmenband/', icon: Instagram },
