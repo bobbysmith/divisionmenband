@@ -7,6 +7,17 @@ export interface Review {
 export const reviews: Review[] = [
   {
     quote:
+      'Hymns and Fiery Dances evokes the recesses of a haunted desert landscape from a dream, just on the\n' +
+      'tipping point of morphing into a nightmare. Caroline R. Portillo and J. Spencer Portillo weave tales that sink\n' +
+      'beneath the skin and sear the psyche. And, in some instances when it’s said it takes a village, Los Portillos\n' +
+      'called upon an entire musical kingdom of talent to contribute to their album, including artists who’ve played\n' +
+      'with Afghan Whigs, Calexico, Polyphonic Spree, Black Rebel Motorcycle Club, Queens of the Stone Age,\n' +
+      'Morphine, Grupo Fantasma, Dr. Dre…even Leonard Cohen, to reference but a few from this extensive list.',
+    publication: 'KUTX',
+    author: 'Laurie Gallardo',
+  },
+  {
+    quote:
       "The Division Men's latest album gives you the feeling that it has just blown in from the desert, in much the same way as Clint Eastwood emerged in High Plains Drifter. This is an album that carries the same feeling of haunting windswept mystery. Given time you may well find that Ni\u00F1os Del Sol's dusty charms grow on you.",
     publication: 'ThePunkSite.com',
     author: 'A.J. Phink',
@@ -128,5 +139,67 @@ export const reviews: Review[] = [
       'Düster, romantisch und von einer Unzahl an Gastmusikschaffenden eingespielt - das sind die Alben des texanischen Duos The Division Men, das eigentlich in Berlin gegründet wurde.\n' +
       'Auf dem neuen Album gibt es nur sieben Songs zu hören, die einen allerdings sofort in ihren Bann ziehen, was vor allem am zwingenden Gesang von Caroline Rippy Portillo liegt, die auch den Bass zupft. Toll!',
     publication: 'folker.world',
+  },
+  {
+    quote:
+      'Let’s get to breaking down The Division Men’s haunting western album, Hymns and Fiery Dances.\n' +
+      'The album features an array of musicians who in their own right have successful careers; Beto\n' +
+      'Martinez (Grupo Fantasma, Money Chicha), Fredo Ortiz (Beastie Boys, Los Lobos) and Peter\n' +
+      'Hayes (Black Rebel Motorcycle Club) all appear on the record in addition to others. The album\n' +
+      'feels refreshing, carving out its own space amid a mountain of albums that play to the same tired\n' +
+      'barrage of loud guitars, reinventing the same song over and over. This record feels different than\n' +
+      'that.\n' +
+      '\n' +
+      'The album track listing tells a story filed with mystery and cautionary tales opening with “Cemetery\n' +
+      'Girl,” setting vivid imagery for what is to come. With a driving rhythm, a staccato cello manifests\n' +
+      'an anxious feeling as if something is lurking just out of sight. Bells provide a momentary sense of\n' +
+      'calm while Rippy’s voice guides you through perfectly placed percussion instruments as the track\n' +
+      'culminates in a dramatic burst of strings, giving the song a powerful and haunting identity. While\n' +
+      'Rippy’s lyrics begs the question “Where did you go Cemetery Girl?, Don’t let it be the last time”\n' +
+      '“San Saba” continues with a haunting aesthetic, this time Jesus takes the lead as if he was a wise\n' +
+      'man warning you on what lies ahead. The opening lines “ I know holes in San Saba, I’ve been told\n' +
+      'about you, the owl stands bold in San Saba”, deliver a prologue leading to Caroline’s hard hitting\n' +
+      'vocals, “Damned to whoever do”. The bridge climaxes into a waterfall of sound driven by frantic\n' +
+      'piano intensity.\n' +
+      '\n' +
+      '“The Night Calls” continues the feeling for survival, as if chasing the last train headed for salvation.\n' +
+      'This leads into the beautifully crafted “The Undertow,” where Spanish-style guitar rhythms and\n' +
+      'solos take the lead, with Rippy’s vocals sounding more commanding and confident.\n' +
+      '“Dead Moon” is full of emotion, with a combination of rhythms, strings are enveloped into an\n' +
+      'orchestral piece of music. Each instrument played with meaning and showcased at the perfect\n' +
+      'moment.\n' +
+      'The album slows the tempo with “Dolores,” which introduces The Division Men’s signature\n' +
+      'sound: a haunting, measured, and delicate track built on a massive “wall of sound.” The bridge breaks\n' +
+      'the song down to vocal simplicity while building up to a dramatic ending. As the album comes to a\n' +
+      'close with “Leonora” and an increased tempo and an uplifting feeling of redemption. The track is\n' +
+      'beautifully rendered, as if a dramatic, colorful, vibrant sunset had been translated into sound.\n' +
+      'Overall, Hymns and Fiery Dances is a masterfully crafted seven-track album. It is best experienced\n' +
+      'with headphones and the lights off, letting the music take over. The Division Men may have taken a\n' +
+      'while to put this album together, but it is most definitely a masterpiece.',
+    publication: 'Cosmic Clash',
+    author: 'Mikey Cota',
+  },
+  {
+    quote:
+      'Les paroles sont toujours aussi bien peaufinées et pensées, J Spencer et Caroline parlent de la vie, de la\n' +
+      "mort, de l'amour, de la vie dans une ville frontalière, le tout sur des rythmes acoustiques et mexico-texans.\n" +
+      'Cemetery Girl propose une grosse rythmique et est principalement chanté par Caroline. Violon et\n' +
+      'violoncelle adoucissent le rythme tandis que J Spencer jouent de multiples instruments. Le tout crée une\n' +
+      'ambiance absolument hypnotique. Laissez-vous envoûter par cette atmosphère si particulière. San Saba\n' +
+      'est plus ambiance texane, plus rapide aussi, plus poussièreuse car nous voici en plein désert. La batterie\n' +
+      'de Fredo Ortiz est incroyable et les choeurs sont captivants. Les guitares vous charmeront, à coup sur.\n' +
+      'Encore une réussite.\n' +
+      '\n' +
+      'Dead Moon revient à une atmosphère mexicaine. On ressent bien ces influences americana, folk (le fantôme\n' +
+      "de Leonard Cohen n'est pas loin) et mexicaine. Les guitares de J Spencer et Peter Hayes sont magnifiques.\n" +
+      'Le refrain est plus que séduisant. Cette chanson pourrait apparaitre dans un film policier se situant à Austin,\n' +
+      'Texas. Dolores est une complainte à la lourde basse et à la rythmique entêtante. La voix de J Spencer est\n' +
+      'basse, presque souterraine, sombre mais semble traverser notre âme. Leonora est une ballade mexicaine,\n' +
+      "langoureuse, éthérée, aux nombreuses guitares acoustiques et à l'harmonica qui semble voler dans notre\n" +
+      'esprit. Une belle manière de terminer le chapitre Hymns And Fiery Dances.\n' +
+      "A l'écoute de ces sept titres, on a l'impression d'être en balade sur les routes texanes et de traverser la\n" +
+      "frontière mexicaine. Ou d'écouter la bande originale d'un film.",
+    publication: "Rock 'n' Reviews",
+    author: 'Claude Scébat',
   },
 ];
