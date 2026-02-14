@@ -90,11 +90,12 @@ export const reviews: Review[] = [
   },
   {
     quote:
-      "Oscillating between intimate memory and stark absence, attempting to hold onto connection while confronting inevitability. It's a fave song from the third album by the El Paso-based duo of married couple Jesus Spencer Portillo and Caroline Rippy Portillo. The project's name comes from the concept of artists working together globally, regardless of where they are located. This song features drummer Leah Shapiro (Black Rebel Motorcycle Club); cellist\n" +
-      'Barb Hunter (Afghan Whigs, Pigface); and, violinist Asya Sorshneva (CocoRosie, Udo Jürgens).',
-    publication: 'Reconnoiter',
+      'Düster, romantisch, ätherisch, zwischen Dreampop und Americana klingt das Duo THE DIVISION MEN aus Texas, USA. Dahinter stecken Jesus Spencer Portillo an Akustikgitarre und Gesang und die Bassistin und Sängerin Caroline „Lucy La Loca" Rippy-Portillo, einst auch Bassistin bei der US-Rockband TITO & TARANTULA. Der Name THE DIVISION MEN entstand aus der Idee, dass Künstler unabhängig von ihrem Standort aus aller Welt zusammenarbeiten. So haben bei ihrem soeben erschienenen neuen Album „Hymns and Fiery Dances" 17 Gastmusiker*innen mitgewirkt, die illustre Runde umfasst Köpfe aus dem Dunstkreisder US-Alternativeszene zwischen „Black Rebel Motorcycle Club" und „Queens oft he Stone Age".\n' +
+      'Portillos Wurzeln im texanischen El Paso hingegen prägend die Texte, die ein atmosphärische Porträt von Liebe, Leben und Tod in dieser Grenzstadt schaffen. Damit kommen die beiden nun auf eine Wahnsinnstour von anderthalb Monaten, wo sie nahezu ohne Pause quer durch ganz Europa touren.\n' +
+      'In Darmstadt werden sie bei ihrem Auftritt in der „Guten Stube" zum ersten Mal in Erscheinung treten.\n' +
+      'Und zuvor supported von dem lokalen Act RYDER SALT, dessen stimmige Singer-/Songwriter-Stücke zwischen Americana, Country und Folk bestens dazu passen.',
+    publication: 'Gute Stube',
   },
-
   {
     quote:
       'Wow, was hier an musikalischer Gäste-Liste in die Beteiligung an diesen knapp 34 Minuten involviert wurde! Musiker u.a von Bands wie The Afghan Whigs, Calexico, CocoRosie oder dem Black Rebel Motorcycle Club dürften dabei unterstützen, diesen doch sehr unterhaltsamen Mix aus Indie Folk, Americana, Goth und Dream Pop ins rechte Licht zu rücken. ,Hymns And Fiery Dances" klingt nach Wüste, Sonnenuntergängen und dem\n' +
@@ -105,11 +106,9 @@ export const reviews: Review[] = [
   },
   {
     quote:
-      'Düster, romantisch, ätherisch, zwischen Dreampop und Americana klingt das Duo THE DIVISION MEN aus Texas, USA. Dahinter stecken Jesus Spencer Portillo an Akustikgitarre und Gesang und die Bassistin und Sängerin Caroline „Lucy La Loca" Rippy-Portillo, einst auch Bassistin bei der US-Rockband TITO & TARANTULA. Der Name THE DIVISION MEN entstand aus der Idee, dass Künstler unabhängig von ihrem Standort aus aller Welt zusammenarbeiten. So haben bei ihrem soeben erschienenen neuen Album „Hymns and Fiery Dances" 17 Gastmusiker*innen mitgewirkt, die illustre Runde umfasst Köpfe aus dem Dunstkreisder US-Alternativeszene zwischen „Black Rebel Motorcycle Club" und „Queens oft he Stone Age".\n' +
-      'Portillos Wurzeln im texanischen El Paso hingegen prägend die Texte, die ein atmosphärische Porträt von Liebe, Leben und Tod in dieser Grenzstadt schaffen. Damit kommen die beiden nun auf eine Wahnsinnstour von anderthalb Monaten, wo sie nahezu ohne Pause quer durch ganz Europa touren.\n' +
-      'In Darmstadt werden sie bei ihrem Auftritt in der „Guten Stube" zum ersten Mal in Erscheinung treten.\n' +
-      'Und zuvor supported von dem lokalen Act RYDER SALT, dessen stimmige Singer-/Songwriter-Stücke zwischen Americana, Country und Folk bestens dazu passen.',
-    publication: 'Gute Stube',
+      "Oscillating between intimate memory and stark absence, attempting to hold onto connection while confronting inevitability. It's a fave song from the third album by the El Paso-based duo of married couple Jesus Spencer Portillo and Caroline Rippy Portillo. The project's name comes from the concept of artists working together globally, regardless of where they are located. This song features drummer Leah Shapiro (Black Rebel Motorcycle Club); cellist\n" +
+      'Barb Hunter (Afghan Whigs, Pigface); and, violinist Asya Sorshneva (CocoRosie, Udo Jürgens).',
+    publication: 'Reconnoiter',
   },
   {
     quote:
@@ -133,12 +132,6 @@ export const reviews: Review[] = [
       'Caroline spielte früher bei den Chicano-Rockern Tito & Tarantula. Die an den Aufnahmen für frühere Alben und auch die aktuelle Arbeit beteiligten Musiker waren unter anderem für Leonard Cohen, Los Lobos, Afghan Whigs, Calexico, Black Rebel Motorcycle Club oder Queens of the Stone Age tätig. Dementsprechend klingen Songs wie Cemetery Girl oder The Night Calls wie eine wilde, allerdings auch weit und getragen über die Prärie hallende Mischung aus Tejano-Grenzlandrock und ein wenig vom dunklen Stoff, den man im weniger sonnigen Berlin aufgesaugt hat.\n' +
       'Dafür kann man sich in der Wüstenei von El Paso eine Staublunge holen, ohne zu rauchen.',
     publication: 'DerStandard',
-  },
-  {
-    quote:
-      'Düster, romantisch und von einer Unzahl an Gastmusikschaffenden eingespielt - das sind die Alben des texanischen Duos The Division Men, das eigentlich in Berlin gegründet wurde.\n' +
-      'Auf dem neuen Album gibt es nur sieben Songs zu hören, die einen allerdings sofort in ihren Bann ziehen, was vor allem am zwingenden Gesang von Caroline Rippy Portillo liegt, die auch den Bass zupft. Toll!',
-    publication: 'folker.world',
   },
   {
     quote:
@@ -201,5 +194,11 @@ export const reviews: Review[] = [
       "frontière mexicaine. Ou d'écouter la bande originale d'un film.",
     publication: "Rock 'n' Reviews",
     author: 'Claude Scébat',
+  },
+  {
+    quote:
+      'Düster, romantisch und von einer Unzahl an Gastmusikschaffenden eingespielt - das sind die Alben des texanischen Duos The Division Men, das eigentlich in Berlin gegründet wurde.\n' +
+      'Auf dem neuen Album gibt es nur sieben Songs zu hören, die einen allerdings sofort in ihren Bann ziehen, was vor allem am zwingenden Gesang von Caroline Rippy Portillo liegt, die auch den Bass zupft. Toll!',
+    publication: 'folker.world',
   },
 ];
