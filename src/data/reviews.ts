@@ -197,6 +197,12 @@ export const reviews: Review[] = [
   },
   {
     quote:
+      'The core of The Division Men is the husband and wife team of J. Spencer Portillo (vocals/acoustic guitar) and Caroline Rippy Portillo (vocals/bass). Originally from Texas, the couple formed the band while living in Berlin. Now back in El Paso, Texas, they record with a plethora of guest performers. On “Hymns and Fiery Dances,” they’ve included a veritable who’s who of indie music, including Rafael Gayol (Leonard Cohen), Rich G. Nelson (Afghan Whigs, Twilight Singers), Jay Reynolds (Asleep at the Wheel), Fredo Otiz (Beastie Boys, Los Lobos), Dana Colley (Morphine), Barb Hunter (Afghan Whigs, Pigface), and more. The album features seven tracks ranging from vaguely Eastern European folk to Latin music to country and western. The songs are very orchestral and cinematic in feel, with lush arrangements that feature a string section. “Cemetery Girl” opens the album with a dark driving song that has the vague Eastern European sound. It’s quite unique, with no band I’m aware of playing this sort of sound. The arrangement is filled out with a glockenspiel, as well as the more traditional guitar, bass, and drums. The song is quite creative, when during a break in the music some rapid breaths keep the rhythm flowing. I like the dusty sound of “San Saba,” sounding like something from a spaghetti western, including that deep bass sound. “The Undertow” has a distinct Central American folk sound, while the album’s title comes from the lyrics of the sensuous “Dead Moon.” “Lenora” is a western ballad that closes the album with a melancholy sound. It’s slow and sad, with deep reverb, a harmonica sobbing, a lush dreamy arrangement, and a solemn waltz time rhythm. “Hymns and Fiery Dances” is an album both romantic and mysterious.',
+    publication: 'Jerseybeat.com',
+    author: 'Tim Testa',
+  },
+  {
+    quote:
       'Düster, romantisch und von einer Unzahl an Gastmusikschaffenden eingespielt - das sind die Alben des texanischen Duos The Division Men, das eigentlich in Berlin gegründet wurde.\n' +
       'Auf dem neuen Album gibt es nur sieben Songs zu hören, die einen allerdings sofort in ihren Bann ziehen, was vor allem am zwingenden Gesang von Caroline Rippy Portillo liegt, die auch den Bass zupft. Toll!',
     publication: 'folker.world',
