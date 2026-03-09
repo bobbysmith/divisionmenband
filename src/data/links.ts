@@ -1,7 +1,5 @@
 import type { ComponentType, SVGProps } from 'react';
 
-import { albums as a } from './slugs';
-
 import {
   AppleMusic,
   Bandcamp,
@@ -14,6 +12,7 @@ import {
   Spotify,
   Youtube,
 } from '../assets/icons';
+import { albums as a } from './slugs';
 
 // ---------------------------------------------------------------------------
 // Social / Web Presence

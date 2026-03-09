@@ -1,5 +1,6 @@
 import type { Locale, TranslationStrings } from '../types';
 import cs from './cs';
+import da from './da';
 import de from './de';
 import en from './en';
 import es from './es';
@@ -14,6 +15,7 @@ import sl from './sl';
 
 export const translations: Record<Locale, TranslationStrings> = {
   en,
+  da,
   hr,
   cs,
   nl,

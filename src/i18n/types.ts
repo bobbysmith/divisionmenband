@@ -1,5 +1,6 @@
 export type Locale =
   | 'en'
+  | 'da'
   | 'hr'
   | 'cs'
   | 'nl'
@@ -81,6 +82,7 @@ export interface LocaleInfo {
 
 export const LOCALES: LocaleInfo[] = [
   { code: 'en', name: 'English', nativeName: 'English' },
+  { code: 'da', name: 'Danish', nativeName: 'Dansk' },
   { code: 'hr', name: 'Croatian', nativeName: 'Hrvatski' },
   { code: 'cs', name: 'Czech', nativeName: '\u010Ce\u0161tina' },
   { code: 'nl', name: 'Dutch', nativeName: 'Nederlands' },
