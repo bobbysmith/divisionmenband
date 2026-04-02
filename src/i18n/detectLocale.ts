@@ -2,6 +2,7 @@ import type { Locale } from './types';
 
 const VALID_LOCALES: Set<string> = new Set([
   'en',
+  'da',
   'hr',
   'cs',
   'nl',
@@ -13,6 +14,7 @@ const VALID_LOCALES: Set<string> = new Set([
   'pt',
   'es',
   'sl',
+  'sv',
 ]);
 
 const STORAGE_KEY = 'tdm-locale';

@@ -12,6 +12,7 @@ import nl from './nl';
 import pl from './pl';
 import pt from './pt';
 import sl from './sl';
+import sv from './sv';
 
 export const translations: Record<Locale, TranslationStrings> = {
   en,
@@ -27,4 +28,5 @@ export const translations: Record<Locale, TranslationStrings> = {
   pt,
   es,
   sl,
+  sv,
 };

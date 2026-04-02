@@ -11,7 +11,8 @@ export type Locale =
   | 'pl'
   | 'pt'
   | 'es'
-  | 'sl';
+  | 'sl'
+  | 'sv';
 
 export interface TranslationStrings {
   // Navigation
@@ -94,4 +95,5 @@ export const LOCALES: LocaleInfo[] = [
   { code: 'pt', name: 'Portuguese', nativeName: 'Portugu\u00EAs' },
   { code: 'es', name: 'Spanish', nativeName: 'Espa\u00F1ol' },
   { code: 'sl', name: 'Slovenian', nativeName: 'Sloven\u0161\u010Dina' },
+  { code: 'sv', name: 'Swedish', nativeName: 'Svenska' },
 ];
