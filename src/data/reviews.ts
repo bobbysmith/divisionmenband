@@ -18,6 +18,18 @@ export const reviews: Review[] = [
   },
   {
     quote:
+      'Steer clear of “San Saba” if it’s treasure you seek. Cursed by forces beyond our understanding, it’s a place where “misfortune will unfold,” according to The Division Men. Unrelentingly dark and mysterious, like the rest of the enthralling Hymns and Fiery Dances, the pulse-pounding track gallops under the cover of night, fleeing whatever evil’s chasing it, be it human or otherwise, and looking for a place to lie low. Just remember, “You won’t find gold in San Saba,” intones J. Spencer Portillo.\n' +
+      '\n' +
+      'His voice distorted into gritty, gravelly menace, Portillo, one half of the El Paso, Texas, husband-and-wife duo known as The Division Men, ominously warns visitors to stay away from “San Saba,” one of the ravishing epics to emerge from the Bible black, western-gothic dreamworld of Hymns and Fiery Dances. Initially, a hot wind sweeps across its expansive, moonlit soundscape, as brisk, locomotive drumming sticks to a well-defined path, gliding ahead of ghostly harmonica whispering in the distance. Furtive piano plinking and desperate runs go along for the ride, deep baritone guitar adding weight to Caroline Rippy Portillo’s dramatic wailing — all of it heady stuff, indeed, and undeniably intoxicating.\n' +
+      '\n' +
+      'It’s no wonder then that a cavalcade of indie hotshots enlisted to work with the couple on Hymns and Fiery Dances, with skilled recruits blowing in from such disparate sources as The Afghan Whigs, Los Lobos, Black Rebel Motorcycle Club, Calexico, and Asleep at the Wheel, just to name a few. And their contributions don’t go unnoticed, each pouring their own distinctive flavors into the luxurious, flowing concoctions of The Division Men, as Tejano richness and velvety currents flood “Dead Moon” — a fever dream of doomed, swaying, romantic bossa nova with a sultry, border town vibe — and a similarly cast “Dolores,” the pull of its languorous, burnished horns so irresistible. They’re as haunting as any of Nick Cave’s Murder Ballads.\n' +
+      '\n' +
+      'Drinking in strong, undulating post-punk brews, while tuning into the frequencies of Concrete Blonde, The Bad Seeds, and the Divine Horsemen, The Division Men — their potent mix of alternating female-male vocals, so sinister, smoldering, and powerful, tapping into the West Coast punk traditions of X and the like — get caught in the flamenco waves of “The Undertow” and cast the noir-like spell of an urgent and uptempo “The Night Calls.” The latter is as catchy as the surging opener “Cemetery Girl,” which sets the stylish mood for Hymns and Fiery Dances, with its climbing builds and occasionally stormy crescendos, its desert sprawl, and bonfire blazes. The Division Men are marching in like fallen saints.',
+    publication: 'Ink19',
+    author: 'Peter Lindblad',
+  },
+  {
+    quote:
       "The Division Men's latest album gives you the feeling that it has just blown in from the desert, in much the same way as Clint Eastwood emerged in High Plains Drifter. This is an album that carries the same feeling of haunting windswept mystery. Given time you may well find that Ni\u00F1os Del Sol's dusty charms grow on you.",
     publication: 'ThePunkSite.com',
     author: 'A.J. Phink',
